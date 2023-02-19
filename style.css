@@ -1,26 +1,43 @@
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 350px;
+    background-image:url(/media/fondogrispc.png);}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    background:rgb(226, 226, 226)}
+
+/*CONTACTO*/
+
+.bordecontacto {
+    background-color:gainsboro;
+    height: 300px;
+    width:200px;
+    border:  2px black solid;}
+
 /*HORARIOS*/
+
 .titulotabla {
-    font-size: xx-large;
-}
+    font-size: xx-large;}
 
 .dias_tabla {
     font-weight: bold;
-    font-size: large;
-}
+    font-size: large;}
 
 .dias_lav{
-    color: rgb(74, 172, 174);
-}
+    color: rgb(74, 172, 174);}
 
 .dias_sab {
-    color: rgb(44, 117, 118);
-}
+    color: rgb(44, 117, 118);}
 
 .dias_dyf {
-    color: rgb(9, 64, 65);
-}
+    color: rgb(9, 64, 65);}
 
 .horarios {
     font-style: italic;
-    font-size: medium;
-}
+    font-size: medium;}
