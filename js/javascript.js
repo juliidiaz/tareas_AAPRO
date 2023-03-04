@@ -1,4 +1,4 @@
-//TP 10//
+//CLASE 10//
 
 let nombre = "Juliana";
 let apellido = "Diaz";
@@ -16,7 +16,7 @@ let suma2 = (suma + num3);
 
 console.log (suma2)
 
-//TP 11//
+//CLASE 11 TP 1//
 
 let topping = prompt ("Ingrese el topping");
 let precioTopping;
@@ -42,4 +42,38 @@ if (topping == "oreo") {
 montoFinal = precioHelado + precioTopping;
 
 console.log ("El helado cuesta $", montoFinal);
+
+//CLASE 11 TP 2//
+
+let pedido = prompt ("Ingrese el menu elegido");
+
+switch (pedido) {
+    case 'carne':
+        console.log ("Ofrecer Vino Tinto");
+    break;
+
+    case 'pescado':
+            console.log ("Ofrecer Vino Blanco");
+    break;   
+    
+    case 'verdura':
+        console.log ("Ofrecer Agua");
+    break;
+
+default:
+    alert ("Elija carne pezcado o verdura para continuar");}
+
+//CLASE 11 TP3//
+
+let colores = ["rojo", "naranja", "amarillo"];
+
+for (let i = 0; i < colores.length; i++) {
+    console.log (colores[i]);}
+
+    colores.push("verde");
+
+for (let i = 0; i < colores.length; i++) {
+    console.log (colores[i]);}
+
+//CLASE 11 TP 4//
 
